@@ -1,0 +1,42 @@
+<%= _.template(require('./../includes/header.html'))() %>
+    <main class="main">
+        <div class="container container_unsubsribe">
+            <div class="row">
+                <div class="col-12 col-xl-4">
+                    <h2 class="h2_unsubscribe word-break">Ihre Abonnements</h2>
+                </div>
+                <div class="col-12 col-xl-7 offset-xl-1">
+                    <form action="">
+                        <div class="form-group form-group_swicher">
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                                <label class="custom-control-label" for="customSwitch1">The subject of this Privacy Policy is the use of this Service and the sites, functions and performances offered as part of the Service.</label>
+                            </div>
+                        </div>
+                        <div class="form-group form-group_swicher">
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                                <label class="custom-control-label" for="customSwitch2">The subject of this Privacy Policy is the use of this Service and the sites, functions and performances offered as part of the Service.</label>
+                            </div>
+                        </div>
+                        <div class="form-group form-group_swicher">
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch3" checked>
+                                <label class="custom-control-label" for="customSwitch3">The subject of this Privacy Policy is the use of this Service and the sites, functions and performances offered as part of the Service.</label>
+                            </div>
+                        </div>
+                        <div class="form-group form-group_swicher">
+                            <div class="custom-control custom-switch">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch4">
+                                <label class="custom-control-label" for="customSwitch4">The subject of this Privacy Policy is the use of this Service and the sites, functions and performances offered as part of the Service.</label>
+                            </div>
+                        </div>
+                        <div class="form-group form-group_btn-unsuscr">
+                            <button class="btn btn_w100">Einstellungen Speichern</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+<%= _.template(require('./../includes/footer.html'))() %>

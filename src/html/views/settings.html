@@ -1,0 +1,64 @@
+<%= _.template(require('./../includes/header.html'))() %>
+    <main class="main">
+        <div class="container container_settings">
+            <form action="">
+                <div class="row">
+                    <div class="col-12 col-xl-6">
+                        <div class="settings-photo">
+                            <div class="profile-photo">
+                                <div class="profile-photo__overlay">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="customFile">
+                                        <label class="custom-file-area d-flex align-items-center justify-content-center" for="customFile">
+                                            <span class="link2 text-center">Veränderung Foto</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <div class="settings-form">
+                            <div class="form-group form-group_check1">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline1">Male</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadioInline2">Female</label>
+                                </div>
+                            </div>
+                            <div class="form-group form-group_input">
+                                <input class="form-control" type="text" placeholder="Vollständiger Name">
+                            </div>
+                            <div class="form-group form-group_input">
+                                <input class="form-control" type="text" placeholder="Alter">
+                            </div>
+                            <div class="form-group form-group_input">
+                                <textarea class="form-control" placeholder="Über"></textarea>
+                            </div>
+                            <div class="form-check-area form-group form-group_check">
+                                <div class="form-check-area__item">
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" id="customCheckboxInline1" name="customCheckboxInline1" class="custom-control-input">
+                                        <label class="custom-control-label" for="customCheckboxInline1">Notify me of site updates</label>
+                                    </div>
+                                </div>
+                                <div class="form-check-area__item d-none d-xl-block">
+                                    <a href="#" class="link1">Sign Out</a>
+                                </div>
+                            </div>
+                            <div class="form-group form-group_settings-btn">
+                                <button class="btn btn_w100">Anmelden</button>
+                            </div>
+                            <div class="form-group form-group_setlink text-center d-block d-xl-none">
+                                <a href="#" class="link1">Sign Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+<%= _.template(require('./../includes/footer.html'))() %>

@@ -1,0 +1,54 @@
+/* font-family: "Current"; */
+/* font-family: "MessinaSans"; */
+
+@font-face {
+    font-family: "Current";
+    src: url("../fonts/Current/Current-Regular.eot");
+    src: url("../fonts/Current/Current-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Current/Current-Regular.woff") format("woff"),
+    url("../fonts/Current/Current-Regular.otf") format("opentype"),
+    url("../fonts/Current/Current-Regular.svg#Current-Regular") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "MessinaSans"; /*Light*/
+    src: url("../fonts/MessinaSans/MessinaSans-Light.eot");
+    src: url("../fonts/MessinaSans/MessinaSans-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MessinaSans/MessinaSans-Light.woff") format("woff"),
+    url("../fonts/MessinaSans/MessinaSans-Light.ttf") format("truetype"),
+    url("../fonts/MessinaSans/MessinaSans-Light.svg#MessinaSans-Light") format("svg");
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "MessinaSans"; /*Book*/
+    src: url("../fonts/MessinaSans/MessinaSans-Book.eot");
+    src: url("../fonts/MessinaSans/MessinaSans-Book.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MessinaSans/MessinaSans-Book.woff") format("woff"),
+    url("../fonts/MessinaSans/MessinaSans-Book.ttf") format("truetype"),
+    url("../fonts/MessinaSans/MessinaSans-Book.svg#MessinaSans-Book") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "MessinaSans"; /*Regular*/
+    src: url("../fonts/MessinaSans/MessinaSans-Regular.eot");
+    src: url("../fonts/MessinaSans/MessinaSans-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MessinaSans/MessinaSans-Regular.woff") format("woff"),
+    url("../fonts/MessinaSans/MessinaSans-Regular.ttf") format("truetype"),
+    url("../fonts/MessinaSans/MessinaSans-Regular.svg#MessinaSans-Regular") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "MessinaSans"; /*Bold*/
+    src: url("../fonts/MessinaSans/MessinaSans-Bold.eot");
+    src: url("../fonts/MessinaSans/MessinaSans-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MessinaSans/MessinaSans-Bold.woff") format("woff"),
+    url("../fonts/MessinaSans/MessinaSans-Bold.ttf") format("truetype"),
+    url("../fonts/MessinaSans/MessinaSans-Bold.svg#MessinaSans-Bold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
