@@ -47,39 +47,40 @@ $footer_text_color_hover:   $font_color;
 /**/$textarea_border_radius:    0;
 
 //Custom Checkbox
-/**/$checkbox_xs_padding_left:      37px;
-/**/$checkbox_xs_width:             23px;
-/**/$checkbox_xs_height:            23px;
-/**/$checkbox_xs_left:              -37px;
-/**/$checkbox_xs_top:               0px;
-/**/$checkbox_xs_marker_width:      9px;
-/**/$checkbox_xs_marker_height:     9px;
+$checkbox_xs_padding_left:      42px;
+$checkbox_xs_width:             21px;
+$checkbox_xs_height:            21px;
+$checkbox_xs_left:              -42px;
+$checkbox_xs_top:               5px;
+$checkbox_xs_marker_width:      9px;
+$checkbox_xs_marker_height:     9px;
 /**/$checkbox_xs_marker_top:        7px;
 /**/$checkbox_xs_marker_left:       $checkbox_xs_left + 7px;
 
-/**/$checkbox_padding_left:         70px;
-/**/$checkbox_width:                44px;
-/**/$checkbox_height:               44px;
-/**/$checkbox_left:                 -70px;
-/**/$checkbox_top:                  0px;
-/**/$checkbox_marker_width:         15px;
-/**/$checkbox_marker_height:        15px;
+$checkbox_padding_left:         86px;
+$checkbox_width:                36px;
+$checkbox_height:               36px;
+$checkbox_left:                 -86px;
+$checkbox_top:                  9px;
+$checkbox_marker_width:         15px;
+$checkbox_marker_height:        15px;
 /**/$checkbox_marker_top:           15px;
 /**/$checkbox_marker_left:          $checkbox_left + 15px;
 
-/**/$checkbox_txt_family:           $font_family;
-/**/$checkbox_txt_color:            $font_color2;
-/**/$checkbox_txt_xs_size:          16px;
-/**/$checkbox_txt_size:             25px;
-/**/$checkbox_txt_xs_lh:            1.4;
-/**/$checkbox_txt_lh:               1.5;
-/**/$checkbox_bg_color:             $input_bg;
-/**/$checkbox_checked_bg_color:     $checkbox_bg_color;
-/**/$checkbox_border:               none;
-/**/$checkbox_checked_border_color: #F2CFCF;
-/**/$checkbox_active_bg_color:      #F2CFCF;
-/**/$checkbox_bg_icon:              "data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 64 64' enable-background='new 0 0 64 64' xml:space='preserve'%3E%3Cg%3E%3Cpath fill='%23FF445A' d='M23.5,54.9c0,0-0.1,0-0.1,0c-1.4,0-2.8-0.6-3.7-1.7l-18.3-20c-1.9-2.1-1.8-5.4,0.3-7.4 c2.1-2,5.4-1.8,7.4,0.3l14.6,16l31.4-31.4c2-2,5.3-2,7.4,0c2,2,2,5.3,0,7.4L27.2,53.4C26.2,54.3,24.9,54.9,23.5,54.9z'/%3E%3C/g%3E%3C/svg%3E%0A";
-/**/$checkbox_checked_marker_color: #000;
+$checkbox_txt_family:           $font_family;
+$checkbox_txt_color:            $font_color;
+$checkbox_txt_xs_size:          15px;
+$checkbox_txt_size:             19px;
+$checkbox_txt_xs_lh:            26px;
+$checkbox_txt_lh:               32px;
+$checkbox_bg_color:             transparent;
+$checkbox_checked_bg_color:     transparent;
+$checkbox_border:               none;
+$checkbox_checked_border_color: transparent;
+$checkbox_active_bg_color:      transparent;
+$checkbox_bg_icon:              '../img/icons/checkbox.svg';
+$checkbox_bg_icon_checked:      '../img/icons/checkbox-checked.svg';
+$checkbox_checked_marker_color: #000;
 
 //Custom RadioButton
 /**/$radio_xs_width:             23px;

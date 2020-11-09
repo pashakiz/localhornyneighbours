@@ -133,14 +133,6 @@ h2 {
       margin-bottom: 99px;
     }
   }
-  &.h2_unsubscribe {
-    @media (min-width: 1200px) {
-      max-width: 315px;
-    }
-    @media (min-width: 1920px) {
-      max-width: 383px;
-    }
-  }
 }
 h3 {
   font-family: $font_family2;
