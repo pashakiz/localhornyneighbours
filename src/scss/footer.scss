@@ -1,40 +1,40 @@
 .footer {
   background-color: $bg_dark_1;
   a.footer__link {
-    font-family: $font_family;
-    font-weight: 300;
+    font-family: $font_family2;
+    font-weight: 400;
     color: $footer_text_color;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 11px;
+    line-height: 15px;
   }
   a.footer__link:hover {
     color: $footer_text_color_hover;
     text-decoration: none;
   }
   a.footer__link + a.footer__link {
-    margin-top: 38px;
+    margin-top: 37px;
   }
   @media (min-width: 992px) {
     a.footer__link {
-      font-size: 17px;
-      line-height: 22px;
+      font-size: 14px;
+      line-height: 20px;
     }
     a.footer__link + a.footer__link {
-      margin-left: 155px;
+      margin-left: 148px;
       margin-top: 0;
     }
   }
   @media (min-width: 1920px) {
     a.footer__link + a.footer__link {
-      margin-left: 200px;
+      margin-left: 148px;
     }
   }
 }
 
 .footer__bottom {
-  padding: 50px 0;
+  padding: 59px 0;
   @media (min-width: 992px) {
-    padding: 51px 0 50px;
+    padding: 46px 0 42px;
   }
 }
 
