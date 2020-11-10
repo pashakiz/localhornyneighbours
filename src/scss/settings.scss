@@ -1,14 +1,17 @@
 .settings-form {
-  padding-top: 34px;
+  padding-top: 37px;
+  @media (min-width: 992px) {
+    padding-top: 70px;
+  }
   @media (min-width: 1200px) {
     padding-top: 0;
-    margin: 0;
+    padding-right: 10px;
   }
   @media (min-width: 1500px) {
-    margin: 0 0 0 45px;
+    padding-right: 20px;
   }
   @media (min-width: 1920px) {
-    margin: 0 0 0 45px;
+    padding-right: 57px;
   }
 }
 
@@ -25,17 +28,17 @@
     max-width: 600px;
   }
   @media (min-width: 1200px) {
-    width: 500px;
-    max-width: 500px;
-    margin: 0;
+    width: 520px;
+    max-width: 520px;
+    margin: 0 0 0 auto;
   }
   @media (min-width: 1500px) {
-    width: 650px;
-    max-width: 650px;
+    width: 580px;
+    max-width: 580px;
   }
   @media (min-width: 1920px) {
-    width: 755px;
-    max-width: 755px;
+    width: 610px;
+    max-width: 610px;
   }
 }
 
@@ -46,56 +49,27 @@
   border-radius: 0;
   width: 100%;
   max-width: 100%;
-  height: 484px;
-  max-height: 484px;
+  height: 498px;
+  max-height: 498px;
   overflow: hidden;
   background-color: $bg_dark_1;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
   @media (min-width: 768px) {
-    height: 712px;
-    max-height: 712px;
+    height: 933px;
+    max-height: 933px;
   }
   @media (min-width: 1200px) {
-    height: 593px;
-    max-height: 593px;
+    height: 437px;
+    max-height: 437px;
   }
   @media (min-width: 1500px) {
-    height: 771px;
-    max-height: 771px;
+    height: 488px;
+    max-height: 488px;
   }
   @media (min-width: 1920px) {
-    height: 896px;
-    max-height: 896px;
-  }
-  .profile-photo__overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-  &.is_photo {
-    .profile-photo__overlay {
-      background-color: rgba(255, 243, 228, 0.3);
-    }
-  }
-}
-
-.form-check-area {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.d-xxl-none {
-  @media (min-width: 1500px) {
-    display: none !important;
-  }
-}
-.d-xxxl-block {
-  @media (min-width: 1920px) {
-    display: block !important;
+    height: 513px;
+    max-height: 513px;
   }
 }

@@ -182,15 +182,12 @@ a {
   font-family: $font_family2;
   color: $link2_color;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 12px;
   &:hover {
-    //color: $link2_hover_color;
-    opacity: 0.7;
+    color: $link2_hover_color;
   }
   @media (min-width: 768px) {
-    font-size: 36px;
-    line-height: 58px;
+    font-size: 18px;
   }
 }
 .link3 {
