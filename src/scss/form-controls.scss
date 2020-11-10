@@ -607,7 +607,7 @@ textarea.form-control {
   color: $font_color;
   background-color: $btn_bg_color;
   position: relative;
-  line-height: 1;
+  line-height: 30px;
   letter-spacing: 2px;
   &:hover {
     color: $font_color;
@@ -621,7 +621,8 @@ textarea.form-control {
     width: auto;
     font-size: 23px;
     padding: 25px 60px;
-    height: 108px;
+    height: 99px;
+    line-height: 50px;
     letter-spacing: 4px;
   }
   &.btn_1 { //index
