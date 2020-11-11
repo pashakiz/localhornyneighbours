@@ -115,12 +115,6 @@
       }
     }
   }
-  .compatibility__chart {
-    width: 65px;
-    @media (min-width: $user_list_item_breakpoint) {
-      width: 90px;
-    }
-  }
   .compatibility__progress {
     width: 65px;
     height: 17px;
@@ -150,8 +144,6 @@
     font-weight: 300;
     font-size: 15px;
     margin-top: 18px;
-    overflow: hidden;
-    text-overflow: ellipsis;
     @media (min-width: $user_list_item_breakpoint) {
       font-size: 22px;
       margin-top: 18px;
@@ -160,39 +152,33 @@
 
   &.compatibility_list {
     .compatibility__title {
-      font-size: 10px;
-      margin-top: 5px;
+      font-size: 9px;
+      margin-top: 6px;
       @media (min-width: $user_list_item_breakpoint) {
-        margin-top: 14px;
-        font-size: 21px;
-      }
-    }
-    .compatibility__chart {
-      width: 39px;
-      @media (min-width: $user_list_item_breakpoint) {
-        width: 91px;
+        margin-top: 15px;
+        font-size: 17px;
       }
     }
     .compatibility__progress {
-      width: 39px;
-      height: 8px;
+      width: 36px;
+      height: 10px;
       margin: auto;
       @media (min-width: $user_list_item_breakpoint) {
-        width: 91px;
-        height: 18px;
+        width: 71px;
+        height: 20px;
       }
       .progress {
-        height: 8px;
+        height: 10px;
         @media (min-width: $user_list_item_breakpoint) {
-          height: 18px;
+          height: 20px;
         }
       }
     }
     .compatibility__chart {
       +.compatibility__chart {
-        margin-left: 8px;
+        margin-left: 10px;
         @media (min-width: $user_list_item_breakpoint) {
-          margin-left: 20px;
+          margin-left: 25px;
         }
       }
     }
