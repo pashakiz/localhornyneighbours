@@ -137,10 +137,10 @@
   &.header__row_index {
     padding: 67px 0 85px;
     @media (min-width: 1200px) {
-      padding: 8px 0 100px 0;
+      padding: 8px 0 40px 0;
     }
     @media (min-width: 1500px) {
-      padding: 8px 0 117px 0;
+      padding: 8px 0 40px 0;
     }
     @media (min-width: 1920px) {
       padding: 8px 0 117px 0;
@@ -271,37 +271,19 @@
     width: 522px;
     max-width: 522px;
   }
-}
-
-.collage {
-  overflow: hidden;
-  margin-bottom: 55px;
-  @media (min-width: 992px) {
-    overflow: visible;
-    position: relative;
-    margin-bottom: 66px;
-  }
-  @media (min-width: 1200px) {
-    margin-bottom: 99px;
-  }
-}
-
-.collage__img_xs {
-  display: block;
-  width: 100%;
-  @media (min-width: 768px) {
-    position: static;
-    width: 100%;
-  }
-  @media (min-width: 992px) {
-    display: none;
-  }
-}
-
-.collage__img_lg {
-  display: none;
-  @media (min-width: 992px) {
-    display: block;
-    width: 100%;
+  &.index {
+    padding: 0 0 47px;
+    @media (min-width: 768px) {
+      padding: 0 0 90px;
+    }
+    @media (min-width: 1200px) {
+      padding: 0;
+      width: 320px;
+      max-width: 320px;
+    }
+    @media (min-width: 1500px) {
+      width: 483px;
+      max-width: 483px;
+    }
   }
 }

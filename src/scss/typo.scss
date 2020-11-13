@@ -4,21 +4,17 @@ h1 {
   font-size: 18px;
   line-height: 36px;
   color: $font_color;
-  margin-bottom: 31px;
-  @media (min-width: 768px) {
-    //font-size: 50px;
-    //line-height: 65px;
-  }
+  margin-bottom: 29px;
   @media (min-width: 1200px) {
     color: $font_color2;
-    font-size: 63px;
-    line-height: 100px;
-    margin-bottom: 113px;
+    font-size: 42px;
+    line-height: 65px;
+    margin-bottom: 35px;
   }
   @media (min-width: 1500px) {
     font-size: 63px;
     line-height: 100px;
-    margin-bottom: 113px;
+    margin-bottom: 50px;
   }
   @media (min-width: 1920px) {
     font-size: 63px;
@@ -26,31 +22,28 @@ h1 {
     margin-bottom: 113px;
   }
   &.h1_index {
-    color: #fff;
+    color: $body_bg_color;
     padding-top: 0;
-    margin-bottom: 53px;
-    line-height: 55px;
+    margin-bottom: 50px;
+    font-size: 33px;
+    line-height: 62px;
     text-align: center;
-    @media (min-width: 768px) {
-      line-height: 55px;
-    }
-    @media (min-width: 992px) {
-      text-align: left;
-      line-height: 64px;
-      margin-bottom: 26px;
-    }
     @media (min-width: 1200px) {
       text-align: left;
+      color: $font_color2;
+      font-size: 37px;
+      line-height: 60px;
+      margin-bottom: 26px;
     }
     @media (min-width: 1500px) {
-      line-height: 95px;
-      margin-bottom: 0;
-      position: relative;
-      right: -8px;
+      font-size: 55px;
+      line-height: 99px;
+      margin-bottom: 35px;
     }
     @media (min-width: 1920px) {
-      line-height: 109px;
-      right: -20px;
+      font-size: 60px;
+      line-height: 125px;
+      margin-bottom: 83px;
     }
   }
   &.h1_login {
@@ -77,9 +70,6 @@ h1 {
       margin-bottom: 48px;
     }
   }
-}
-.word-break {
-  word-break: break-word;
 }
 h2 {
   font-family: $font_family2;
@@ -154,11 +144,14 @@ h3 {
     margin-bottom: 40px;
   }
 }
+.word-break {
+  word-break: break-word;
+}
 p {
   line-height: 32px;
   margin-bottom: 1.5rem;
   @media (min-width: 768px) {
-    line-height: 45px;
+    line-height: 42px;
   }
   b {
     &.bmark {
