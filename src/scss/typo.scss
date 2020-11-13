@@ -1,27 +1,29 @@
 h1 {
   font-family: $font_family2;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 41px;
-  color: #fff;
-  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 36px;
+  color: $font_color;
+  margin-bottom: 31px;
   @media (min-width: 768px) {
     //font-size: 50px;
     //line-height: 65px;
   }
   @media (min-width: 1200px) {
     color: $font_color2;
-    font-size: 79px;
-    line-height: 109px;
-    margin-bottom: 0;
+    font-size: 63px;
+    line-height: 100px;
+    margin-bottom: 113px;
   }
   @media (min-width: 1500px) {
-    font-size: 79px;
-    line-height: 109px;
+    font-size: 63px;
+    line-height: 100px;
+    margin-bottom: 113px;
   }
   @media (min-width: 1920px) {
-    font-size: 79px;
-    line-height: 109px;
+    font-size: 63px;
+    line-height: 100px;
+    margin-bottom: 113px;
   }
   &.h1_index {
     color: #fff;
@@ -29,9 +31,6 @@ h1 {
     margin-bottom: 53px;
     line-height: 55px;
     text-align: center;
-    .sp1 { font-size: 33px; }
-    .sp2 { font-size: 28px; }
-    .sp3 { font-size: 37px; }
     @media (min-width: 768px) {
       line-height: 55px;
     }
@@ -39,9 +38,6 @@ h1 {
       text-align: left;
       line-height: 64px;
       margin-bottom: 26px;
-      .sp1 { font-size: 40px; }
-      .sp2 { font-size: 35px; }
-      .sp3 { font-size: 45px; }
     }
     @media (min-width: 1200px) {
       text-align: left;
@@ -51,40 +47,34 @@ h1 {
       margin-bottom: 0;
       position: relative;
       right: -8px;
-      .sp1 { font-size: 63px; }
-      .sp2 { font-size: 63px; }
-      .sp3 { font-size: 60px; }
     }
     @media (min-width: 1920px) {
       line-height: 109px;
       right: -20px;
-      .sp1 { font-size: 79px; }
-      .sp2 { font-size: 79px; }
-      .sp3 { font-size: 68px; }
     }
   }
   &.h1_login {
-    @media (min-width: 768px) {
-      font-size: 55px;
-      line-height: 80px;
-      margin-bottom: 50px;
-    }
-    @media (min-width: 992px) {
-      color: $font_color;
-      margin: 0;
-    }
+    text-align: center;
+    color: $body_bg_color;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 41px;
+    letter-spacing: 5px;
     @media (min-width: 1200px) {
-      font-size: 52px;
-      line-height: 56px;
-      margin: 0;
+      text-align: left;
+      letter-spacing: 0;
+      color: $font_color2;
+      font-size: 26px;
     }
     @media (min-width: 1500px) {
-      font-size: 68px;
-      line-height: 80px;
+      font-size: 51px;
+      line-height: 73px;
+      margin-bottom: 30px;
     }
     @media (min-width: 1920px) {
-      font-size: 79px;
-      line-height: 109px;
+      font-size: 54px;
+      line-height: 80px;
+      margin-bottom: 48px;
     }
   }
 }
@@ -125,17 +115,27 @@ h2 {
     }
   }
   &.h2_login {
-    margin-top: 44px;
-    margin-bottom: 37px;
-    @media (min-width: 768px) {
-      margin-bottom: 60px;
-    }
+    margin-top: 49px;
+    margin-bottom: 30px;
     @media (min-width: 992px) {
-      color: rgba(255, 255, 255, 0.39);
+      margin-top: 100px;
+      margin-bottom: 70px;
     }
     @media (min-width: 1200px) {
-      margin-top: 49px;
-      margin-bottom: 99px;
+      font-size: 30px;
+      line-height: 60px;
+      margin-top: 80px;
+      margin-bottom: 30px;
+    }
+    @media (min-width: 1500px) {
+      font-size: 47px;
+      line-height: 60px;
+      margin-top: 120px;
+      margin-bottom: 70px;
+    }
+    @media (min-width: 1920px) {
+      margin-top: 195px;
+      margin-bottom: 103px;
     }
   }
 }
@@ -177,30 +177,33 @@ a {
 }
 .link1 {
   font-family: $link_txt_family;
-  font-weight: 300;
-  font-size: 16px;
-  @media (min-width: 768px) {
-    font-size: 25px;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(243, 228, 225, 0.7);
+  &:hover {
+    color: $body_bg_color;
+    text-decoration: underline;
+  }
+  @media (min-width: 1200px) {
+    color: rgba(78, 70, 79, 0.7);
+    &:hover {
+      color: $link_hover_color;
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: 1500px) {
+    font-size: 20px;
   }
 }
 .link2 {
   font-family: $font_family2;
-  color: $link2_color;
+  color: $font_color;
   font-weight: 400;
   font-size: 12px;
   &:hover {
-    color: $link2_hover_color;
+    color: $btn_hover_bg_color;
   }
   @media (min-width: 768px) {
     font-size: 18px;
-  }
-}
-.link3 {
-  font-family: $font_family;
-  font-weight: 300;
-  font-size: 17px;
-  color: $link3_color;
-  &:hover {
-    color: $link3_hover_color;
   }
 }

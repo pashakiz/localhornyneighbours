@@ -159,6 +159,11 @@ body {
     display: none !important;
   }
 }
+.d-xxl-block {
+  @media (min-width: 1500px) {
+    display: block !important;
+  }
+}
 .d-xxxl-block {
   @media (min-width: 1920px) {
     display: block !important;

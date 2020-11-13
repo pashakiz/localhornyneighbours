@@ -53,31 +53,28 @@ body textarea:required:valid {
   }
   &.form-control_header {
     border: none;
-    font-size: 17px;
-    color: rgba(0,0,0,0.51);
-    padding: 15px 20px;
-    background-color: rgba(255,243,228,0.8);
+    font-size: 15px;
+    color: rgba(78, 70, 79, 0.7);
+    padding: 20px;
+    background-color: $body_bg_color;
     text-align: center;
     &:hover {
       background-color: $bg_light_1;
-      color: $font_color2;
+      color: $input_txt_color;
     }
     &:focus {
       box-shadow: none;
       background-color: $bg_light_1;
-      color: $font_color2;
-    }
-    @media (min-width: 992px) {
-      background-color: #fff;
       color: $input_txt_color;
     }
     @media (min-width: 1200px) {
-      padding: 30px 40px;
-      font-size: 25px;
+      text-align: left;
+      border: 1px solid $btn_bg_color;
+      font-size: 24px;
     }
     @media (min-width: 1500px) {
-      padding: 30px 40px;
-      font-size: 25px;
+      padding: 35px 62px;
+      font-size: 24px;
     }
   }
 }
@@ -87,12 +84,12 @@ input.form-control {
     height: 90px;
   }
   &.form-control_header {
-    height: 52px;
+    height: 60px;
     @media (min-width: 1200px) {
-      height: 93px;
+      height: 60px;
     }
-    @media (min-width: 1500px) {
-      height: 93px;
+    @media (min-width: 1920px) {
+      height: 100px;
     }
   }
 }
@@ -131,24 +128,32 @@ textarea.form-control {
   }
 }
 .form-group_login {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   @media (min-width: 992px) {
-    margin-bottom: 0;
-    width: 32%;
+    margin-bottom: 35px;
+  }
+  @media (min-width: 1200px) {
+    margin-bottom: 20px;
   }
   @media (min-width: 1920px) {
-    width: 470px;
+    margin-bottom: 35px;
   }
 }
 .form-group_login-btn {
-  @media (min-width: 1920px) {
-    width: 559px;
-    margin-left: 4px;
-  }
+  margin-bottom: 0;
 }
 .form-group_up-login {
-  margin-top: 21px;
+  margin-top: 30px;
   margin-bottom: 0;
+  @media (min-width: 1200px) {
+    margin-top: 10px;
+  }
+  @media (min-width: 1500px) {
+    margin-top: 20px;
+  }
+  @media (min-width: 1920px) {
+    margin-top: 40px;
+  }
 }
 .form-group_input {
   margin-bottom: 23px;
@@ -626,16 +631,20 @@ textarea.form-control {
     letter-spacing: 4px;
   }
   &.btn_1 { //index
-    height: 52px;
-    font-size: 17px;
-    padding: 15px 20px 14px;
-    @media (min-width: 1200px) {
-      height: 93px;
-      font-size: 37px;
-      padding: 15px 20px 14px;
+    height: 60px;
+    font-size: 12px;
+    padding: 16px 20px;
+    @media (min-width: 992px) {
+      line-height: 30px;
     }
     @media (min-width: 1500px) {
-      height: 93px;
+      height: 90px;
+      font-size: 23px;
+      padding: 22px 35px;
+    }
+    @media (min-width: 1920px) {
+      height: 108px;
+      padding: 33px 35px 30px;
     }
   }
   &.btn_2 { //user list

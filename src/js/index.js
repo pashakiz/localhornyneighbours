@@ -68,23 +68,27 @@ $(function() {
         //slider (Profile gallery) for desktop
         $('.owl-carousel.user-list_slider').owlCarousel({
             loop: true,
-            dots: false,
-            items: 4,
-            margin: 24,
+            dots: true,
+            items: 2,
+            margin: 25,
             autoWidth: true,
             responsive:{
                 1200:{
                     margin: 25
                 },
-                1410:{
-                    margin: 49
+                1500:{
+                    dots: false,
+                    margin: 50
+                },
+                1920:{
+                    dots: false,
+                    margin: 148
                 }
             }
         });
 
         //slider (user_list extra) for mobile only
         owlInit('.user-list-extra');
-        owlInit('.user-list_slider');
 
     });
 
@@ -96,12 +100,7 @@ $(function() {
                 dots: true,
                 items: 2,
                 margin: 22,
-                autoWidth: true,
-                responsive:{
-                    768:{
-                        //items: 4
-                    }
-                }
+                autoWidth: true
             });
         } else {
             $('.owl-carousel' + el_class).owlCarousel('destroy');
@@ -111,7 +110,6 @@ $(function() {
 
     $(window).resize(function() {
         owlInit('.user-list-extra');
-        owlInit('.user-list_slider');
     });
 
 });

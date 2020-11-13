@@ -20,10 +20,16 @@
       padding: 0;
     }
     &.owl-carousel {
-      .owl-dots {
-        bottom: -2px;
+      .owl-stage-outer {
+        padding: 10px 0 0 0;
         @media (min-width: 992px) {
-          bottom: 40px;
+          padding: 20px 0 0 0;
+        }
+      }
+      .owl-dots {
+        bottom: 0;
+        @media (min-width: 992px) {
+          bottom: 10px;
         }
       }
     }
